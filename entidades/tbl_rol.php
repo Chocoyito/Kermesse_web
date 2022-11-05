@@ -1,11 +1,7 @@
 <?php
-
-class tbl_usuario
-{
-    private $id_usuario;
-    private $nombres;
-    private $apellidos;
-    private $email;
+class tbl_rol{
+    private $id_rol;
+    private $rol_descripcion;
     private $estado;
 
     public function __GET($k) {return $this->$k;}
