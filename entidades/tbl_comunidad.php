@@ -1,11 +1,11 @@
 <?php
 
-class tbl_usuario
+class tbl_comunidad
 {
-    private $id_usuario;
-    private $nombres;
-    private $apellidos;
-    private $email;
+    private $id_comunidad;
+    private $nombre;
+    private $responsable;
+    private $desc_contribucion;
     private $estado;
 
     public function __GET($k) {return $this->$k;}
