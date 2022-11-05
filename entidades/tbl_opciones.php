@@ -1,11 +1,9 @@
 <?php
 
-class tbl_usuario
+class tbl_opciones
 {
-    private $id_usuario;
-    private $nombres;
-    private $apellidos;
-    private $email;
+    private $id_opciones;
+    private $opcion_descripcion;
     private $estado;
 
     public function __GET($k) {return $this->$k;}
