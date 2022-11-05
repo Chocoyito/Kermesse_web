@@ -7,12 +7,6 @@ class tbl_usuario
     private $email;
     private $estado;
 
-    public function __GET($k)
-    {
-        return $this->$k;
-    }
-    public function __SET($k, $v)
-    {
-        return $this->$k = $v;
-    }
+    public function __GET($k) {return $this->$k;}
+    public function __SET($k, $v) {return $this->$k = $v;}
 }
